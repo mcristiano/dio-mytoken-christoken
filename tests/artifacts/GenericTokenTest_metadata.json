@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deployToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testApprove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testBurnTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailTransferFromInsufficientAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailTransferInsufficientFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInitialState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTotalSupplyDecrease",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTransferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"deployToken()": {
+					"notice": "#sender: account-0"
+				},
+				"testApprove()": {
+					"notice": "#sender: account-0"
+				},
+				"testBurnTokens()": {
+					"notice": "#sender: account-0"
+				},
+				"testFailTransferFromInsufficientAllowance()": {
+					"notice": "#sender: account-1"
+				},
+				"testFailTransferInsufficientFunds()": {
+					"notice": "#sender: account-0"
+				},
+				"testInitialState()": {
+					"notice": "#sender: account-0"
+				},
+				"testTotalSupplyDecrease()": {
+					"notice": "#sender: account-0"
+				},
+				"testTransfer()": {
+					"notice": "#sender: account-0"
+				},
+				"testTransferFrom()": {
+					"notice": "#sender: account-1"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/2-GenericToken_DEPLOY_test.sol": "GenericTokenTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GenericToken.sol": {
+			"keccak256": "0x55628a9de1febbbb844a3b223cb454274046f206f7e8021377702cbf65dd8833",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34740d5ca94d430d0c5abca0e47cccbeb0663f84bbe356c203f55389ecf00acf",
+				"dweb:/ipfs/QmXD8FZx61V95zV9in2KHHLBsxM2yFnpAvApg3zJQbURnX"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0xab088ffd1cd1033f54c2486f151b5d02281a3b76724c8e6f48479c25a4f7809e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5ddaf9976b1838f7028cbedfaf7f6e1cf8c898e100221176ff1406ee8b599f23",
+				"dweb:/ipfs/QmX2FYLXYyo5Cn55ZX2CfngpscSh4mQhcMVzQdQsh2vqcG"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/2-GenericToken_DEPLOY_test.sol": {
+			"keccak256": "0x131ec913f8d2c7c520e01e71666aa6ad1254e0cedc8c12a69f82e0b9d7aa62f2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://eb3f08a29cf5618127f809d5745232db7f88e929df9c10a00308f7c6b104b85a",
+				"dweb:/ipfs/QmNS2FHmspZxxU989TjK92BoegSifjtQrfFeocJsDr3hDS"
+			]
+		}
+	},
+	"version": 1
+}

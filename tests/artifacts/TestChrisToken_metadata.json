@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "chrisToken",
+				"outputs": [
+					{
+						"internalType": "contract ChrisToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initialSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInitialSupply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"testInitialSupply()": {
+					"notice": "Teste do construtor e fornecimento inicial"
+				},
+				"testTransfer()": {
+					"notice": "Teste de transferencia de tokens"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/3-ChrisToken_DEPLOY_test.sol": "TestChrisToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ChrisToken.sol": {
+			"keccak256": "0x058034355d4f83757641008462e131eb28bbceadac11aed10241bb28a4258f96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://981a1d5bb06462296fce77e437b9d50f2632f7921bda13cef8f3702fe0cafda9",
+				"dweb:/ipfs/QmQkeQhEdwV5VreorZpWd2Z2HWXmEJzLG8DTRinCsw85Et"
+			]
+		},
+		"contracts/GenericToken.sol": {
+			"keccak256": "0x55628a9de1febbbb844a3b223cb454274046f206f7e8021377702cbf65dd8833",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34740d5ca94d430d0c5abca0e47cccbeb0663f84bbe356c203f55389ecf00acf",
+				"dweb:/ipfs/QmXD8FZx61V95zV9in2KHHLBsxM2yFnpAvApg3zJQbURnX"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/3-ChrisToken_DEPLOY_test.sol": {
+			"keccak256": "0x0128da6f3cf65b1a5242c4c27270a859f35989cdbbefc39893655fc69ed2ef74",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://938704fa97911962639b4097c11d7af033d4b0105c8c94723c6515f70f372082",
+				"dweb:/ipfs/QmVksURWcbVFsgghZJpEj1JEktpzVHRYAouVq86cNfUzix"
+			]
+		}
+	},
+	"version": 1
+}
